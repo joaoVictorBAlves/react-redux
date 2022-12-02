@@ -1,0 +1,36 @@
+.counter{
+    margin-top: 300px;
+}
+
+button {
+    width: 25%;
+    height: 80px;
+    background-color: #c2c2c2;
+    color: #0f0f0f;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+span {
+    margin: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 30%;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    span {}
+}
